@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.items
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+/**
+*   SCENE 1
+*/
+.scene-1
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 80%;
+}
+
+.baby-room
+{
+    height: 100%;
+    width: 100%;
+}
+
+.baby
+{
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    transition: opacity 0.7s;
+    will-change: opacity;
+}
+
+.cube-block, .teddybear-block
+{
+    cursor: pointer;
+}
+
+.cube, .cube-baby
+{
+    top: 70%;
+    left: 25%;
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.teddybear, .teddybear-baby
+{
+    top: 70%;
+    left: 75%;
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.cube-baby, .teddybear-baby
+{
+    opacity: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.cube-baby
+{
+    top: 68%;
+    width: 170px;
+    height: 170px;
+}
+
+/**
+*   SCENE 2
+*/
+.scene-2
+{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 80%;
+}
+
+.playgrounds
+{
+    height: 100%;
+    width: 100%;
+}
+
+.school-boy, .listening-music-anim
+{
+    top: 62%;
+    left: 20%;
+}
+
+.football, .football-anim
+{
+    top: 15%;
+    left: 55%;
+    height: 200px;
+}
+
+.football-anim
+{
+    top: 8%;
+    height: 225px;
+    width: 125px;
+}
+
+.book, .book-anim
+{
+    top: 79%;
+    left: 50%;
+    height: 20px;
+}
+
+.book-anim
+{
+    height: 150px;
+    width: 125px;
+    top: 53%;
+}
+
+.videogames, .videogames-anim
+{
+    top: 31%;
+    left: 11%;
+}
+
+.videogames-anim
+{    
+    height: 170px;
+    width: 170px;
+    top: 29%;
+    left: 11%;
+}
+
+.football, .book, .videogames
+{
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.football-anim, .book-anim, .videogames-anim, .listening-music-anim
+{
+    opacity: 0;
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.football-block, .book-block, .videogames-block, .listening-music-block
+{
+    cursor: pointer;
+}
+
+/**
+*   SCENE 3
+*/
+
+.scene-3
+{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 80%;
+}
+
+.teenager-room
+{
+    height: 100%;
+    width: 100%;
+}
+
+.teenager
+{
+    top: 20%;
+    left: 45%;
+    height: 400px;
+}
+
+.teenager-anim
+{
+    top: 17%;
+    left: 20%;
+    height: 400px;
+}
+
+.sofa
+{
+    top: 48%;
+    left: -2%;
+    height: 200px;
+    width: 250px;
+}
+
+.friend-1-anim
+{
+    top: 20%;
+    left: 5%;
+    height: 350px;
+}
+
+.friend-2-anim
+{
+    top: 55%;
+    left: 10%;
+    height: 200px;
+}
+
+.punchingball
+{
+    top: -2%;
+    left: 30%;
+    height: 500px;
+}
+
+.punchingball-anim
+{
+    top: 10%;
+    left: 25%;
+    height: 400px;
+}
+
+.studying
+{
+    top: 85%;
+    left: 35%;
+    height: 75px;  
+    width: 75px;
+}
+
+.studying-anim
+{
+    top: 60%;
+    left: 35%;
+    height: 190px;  
+    width: 120px;
+}
+
+.guitar
+{
+    top: 45%;
+    left: 85%;
+    height: 300px;
+}
+
+.guitar-anim
+{
+    top: 22%;
+    left: 80%;
+    height: 400px;
+}
+
+.gaming
+{
+    top: 40%;
+    left: 45%;
+    width: 300px;
+    height: 210px;
+}
+
+.chair
+{
+    top: 40%;
+    left: 60%;
+    height: 200px;
+}
+
+.chair-anim
+{
+    top: 35%;
+    left: 60%;
+    height: 270px;
+}
+
+.studying, .chair, .guitar, .teenager
+{
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.friend-1-anim, .friend-2-anim, .punchingball-anim, .studying-anim, .guitar-anim, .teenager-anim, .chair-anim
+{
+    opacity: 0;
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.sofa-block, .punchingball-block, .chair-block, .guitar-block, .studying-block
+{
+    cursor: pointer;
+}
+
+/**
+*   Scene 4
+*/
+
+/* Working place */
+
+.scene-4-working-place
+{
+    display: none;
+}
+
+.working
+{
+    background-color: #00ffd5;
+    top: 40%;
+    left: 40%;
+}
+
+.speaking
+{
+    background-color: #ff00ea;
+    top: 60%;
+    left: 60%;
+}
+
+
+/* College */
+
+.scene-4-college
+{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 80%;
+}
+
+.amphitheatre
+{
+    width: 100%;
+    height: 100%;
+}
+
+.teenager-college
+{
+    top: 40%;
+    left: 40%;
+}
+
+.friend-2-college
+{
+    top: 40%;
+    left: 40%;
+}
+
+.book-college
+{
+    top: 40%;
+    left: 60%;
+}
+
+.book-college-anim
+{
+    top: 40%;
+    left: 60%;
+}
+
+/* Party */
+
+.scene-4-party
+{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 80%;
+}
+
+.arcade
+{
+    width: 100%;
+    height: 100%;
+}
+
+.teenager-party
+{
+    top: 23%;
+    left: 40%;
+    height: 350px;
+}
+
+.ddr-party
+{
+    top: 20%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.ddr-party-anim
+{
+    top: 20%;
+    left: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.speakers-party
+{
+    top: 10%;
+    left: -1%;
+    height: 250px;
+    width: 250px;
+}
+
+.speakers-party-anim
+{
+    top: 20%;
+    left: 20%;
+    height: 300px;
+    width: 200px;
+}
+
+.teenager-party, .ddr-party
+{
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.speakers-party-anim, .ddr-party-anim
+{
+    opacity: 0;
+    transition: opacity 0.5s;
+    will-change: opacity;
+}
+
+.ddr-party-block, .speakers-party-block
+{
+    cursor: pointer;
+}
+
+/* Street */
+
+.scene-4-street
+{
+    display: none;
+}
+
+.dj
+{
+    background-color: #090a0c;
+    top: 50%;
+    left: 50%;
+}

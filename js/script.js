@@ -136,15 +136,77 @@ const startSceneFive = () =>
 }
 
 // START SCENE 1
-// scene1.js
+$cubeBlock.addEventListener('mousedown', () =>
+{
+    choises.intel += 1
+    console.log(choises.intel)
+    endSceneOne()
+})
+
+$teddybearBlock.addEventListener('mousedown', () =>
+{
+    choises.social += 1
+    console.log(choises.social)
+    endSceneOne()
+})
 // END SCENE 1
 
 // START SCENE 2
-// scene2.js
+$footballBlock.addEventListener('mousedown', () =>
+{
+    choises.sport += 1
+    endSceneTwo()
+})
+
+$bookBlock.addEventListener('mousedown', () =>
+{
+    choises.intel += 1
+    endSceneTwo()
+})
+
+$listeningMusicBlock.addEventListener('mousedown', () =>
+{
+    choises.music += 1
+    endSceneTwo()
+})
+
+$videogamesBlock.addEventListener('mousedown', () =>
+{
+    choises.social += 1
+    endSceneTwo()
+})
 // END SCENE 2
 
 // START SCENE 3
-// scene3.js
+$punchingballBlock.addEventListener('mousedown', () =>
+{
+    choises.sport += 1
+    endSceneThree()
+})
+
+$studyingBlock.addEventListener('mousedown', () =>
+{
+    choises.intel += 1
+    endSceneThree()
+})
+
+$guitarBlock.addEventListener('mousedown', () =>
+{
+    choises.music += 1
+    endSceneThree()
+})
+
+$chairBlock.addEventListener('mousedown', () =>
+{
+    choises.social += 1
+    endSceneThree()
+})
+
+$sofaBlock.addEventListener('mousedown', () =>
+{
+    choises.social += 1
+    endSceneThree()
+})
 // END SCENE 3
 
 // START SCENE 4
@@ -162,9 +224,24 @@ const startSceneFive = () =>
 //     endSceneFour()
 // })
 
+$speakersPartyBlock.addEventListener('mousedown', () =>
+{
+    choises.music += 1
+    console.log('Ajouter la fin musique ici')
+    endSceneFour()
+})
 
+$ddrPartyBlock.addEventListener('mousedown', () =>
+{
+    choises.social += 1
+    endSceneFour()
+})
 
-
+$bookCollegeBlock.addEventListener('mousedown', () =>
+{
+    choises.intel += 1
+    endSceneFour()
+})
 
 // $playing.addEventListener('mousedown', () =>
 // {

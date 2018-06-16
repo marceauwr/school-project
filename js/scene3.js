@@ -122,33 +122,33 @@ $guitarBlock.addEventListener('mouseleave', () =>
     }, 300)
 })
 
-$punchingballBlock.addEventListener('mousedown', () =>
-{
-    choises.sport += 1
-    endSceneThree()
-})
+// $punchingballBlock.addEventListener('mousedown', () =>
+// {
+//     choises.sport += 1
+//     endSceneThree()
+// })
 
-$studyingBlock.addEventListener('mousedown', () =>
-{
-    choises.intel += 1
-    endSceneThree()
-})
+// $studyingBlock.addEventListener('mousedown', () =>
+// {
+//     choises.intel += 1
+//     endSceneThree()
+// })
 
-$guitarBlock.addEventListener('mousedown', () =>
-{
-    choises.music += 1
-    endSceneThree()
-})
+// $guitarBlock.addEventListener('mousedown', () =>
+// {
+//     choises.music += 1
+//     endSceneThree()
+// })
 
-$chairBlock.addEventListener('mousedown', () =>
-{
-    choises.social += 1
-    endSceneThree()
-})
+// $chairBlock.addEventListener('mousedown', () =>
+// {
+//     choises.social += 1
+//     endSceneThree()
+// })
 
-$sofaBlock.addEventListener('mousedown', () =>
-{
-    choises.social += 1
-    endSceneThree()
-})
+// $sofaBlock.addEventListener('mousedown', () =>
+// {
+//     choises.social += 1
+//     endSceneThree()
+// })
 

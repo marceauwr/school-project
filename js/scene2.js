@@ -90,26 +90,26 @@ $listeningMusicBlock.addEventListener('mouseleave', () =>
 
 // Add event listener mouse down effect 
 
-$footballBlock.addEventListener('mousedown', () =>
-{
-    choises.sport += 1
-    endSceneTwo()
-})
+// $footballBlock.addEventListener('mousedown', () =>
+// {
+//     choises.sport += 1
+//     endSceneTwo()
+// })
 
-$bookBlock.addEventListener('mousedown', () =>
-{
-    choises.intel += 1
-    endSceneTwo()
-})
+// $bookBlock.addEventListener('mousedown', () =>
+// {
+//     choises.intel += 1
+//     endSceneTwo()
+// })
 
-$listeningMusicBlock.addEventListener('mousedown', () =>
-{
-    choises.music += 1
-    endSceneTwo()
-})
+// $listeningMusicBlock.addEventListener('mousedown', () =>
+// {
+//     choises.music += 1
+//     endSceneTwo()
+// })
 
-$videogamesBlock.addEventListener('mousedown', () =>
-{
-    choises.social += 1
-    endSceneTwo()
-})
+// $videogamesBlock.addEventListener('mousedown', () =>
+// {
+//     choises.social += 1
+//     endSceneTwo()
+// })

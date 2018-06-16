@@ -46,15 +46,15 @@ $ddrPartyBlock.addEventListener('mouseleave', () =>
 })
 
 // listen to mouse down event
-$speakersPartyBlock.addEventListener('mousedown', () =>
-{
-    choises.music += 1
-    console.log('Ajouter la fin musique ici')
-    endSceneFour()
-})
+// $speakersPartyBlock.addEventListener('mousedown', () =>
+// {
+//     choises.music += 1
+//     console.log('Ajouter la fin musique ici')
+//     endSceneFour()
+// })
 
-$ddrPartyBlock.addEventListener('mousedown', () =>
-{
-    choises.social += 1
-    endSceneFour()
-})
+// $ddrPartyBlock.addEventListener('mousedown', () =>
+// {
+//     choises.social += 1
+//     endSceneFour()
+// })

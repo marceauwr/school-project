@@ -27,8 +27,8 @@ $bookCollegeBlock.addEventListener('mouseleave', () =>
     }, 300)
 })
 
-$bookCollegeBlock.addEventListener('mousedown', () =>
-{
-    choises.intel += 1
-    endSceneFour()
-})
+// $bookCollegeBlock.addEventListener('mousedown', () =>
+// {
+//     choises.intel += 1
+//     endSceneFour()
+// })

@@ -1,4 +1,3 @@
-console.log('scene 3')
 // scene 3
 const $sceneThree = document.querySelector('.scene-3')
 const $punchingball = $sceneThree.querySelector('.punchingball')
@@ -121,34 +120,3 @@ $guitarBlock.addEventListener('mouseleave', () =>
         $guitar.style.opacity = '1'
     }, 300)
 })
-
-// $punchingballBlock.addEventListener('mousedown', () =>
-// {
-//     choises.sport += 1
-//     endSceneThree()
-// })
-
-// $studyingBlock.addEventListener('mousedown', () =>
-// {
-//     choises.intel += 1
-//     endSceneThree()
-// })
-
-// $guitarBlock.addEventListener('mousedown', () =>
-// {
-//     choises.music += 1
-//     endSceneThree()
-// })
-
-// $chairBlock.addEventListener('mousedown', () =>
-// {
-//     choises.social += 1
-//     endSceneThree()
-// })
-
-// $sofaBlock.addEventListener('mousedown', () =>
-// {
-//     choises.social += 1
-//     endSceneThree()
-// })
-

@@ -1,9 +1,3 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-} */
-
 .items
 {
     width: 100px;
@@ -318,29 +312,6 @@
 /**
 *   Scene 4
 */
-
-/* Working place */
-
-/* .scene-4-working-place
-{
-    display: none;
-}
-
-.working
-{
-    background-color: #00ffd5;
-    top: 40%;
-    left: 40%;
-}
-
-.speaking
-{
-    background-color: #ff00ea;
-    top: 60%;
-    left: 60%;
-} */
-
-
 /* College */
 
 .scene-4-college
@@ -474,16 +445,57 @@
     cursor: pointer;
 }
 
-/* Street */
-
-.scene-4-street
+.scene-5
 {
     display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 80%;
+    height: 80%;
 }
 
-.dj
+.the-end
 {
-    background-color: #090a0c;
-    top: 50%;
-    left: 50%;
+    width: 100%;
+    height: 100%;
 }
+
+/* Equalizer */
+.equalizer
+{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+.equalizer .bar
+{
+    display:inline-block;
+    width: 18%;
+    height: 100%;
+    background: #333333;
+    margin: 0 1%;
+    animation: equalizer-bar-bounce 1s infinite;  
+    animation-fill-mode: backwards;
+    will-change: transform; 
+}
+
+@keyframes equalizer-bar-bounce
+{
+    0%   { transform: scaleY(0.1); } 
+    10%  { transform: scaleY(1); }
+    100% { transform: scaleY(0.1); }
+}
+
+.equalizer .bar-1{ animation-delay: 0.1s }
+.equalizer .bar-2{ animation-delay: 0.8s }
+.equalizer .bar-3{ animation-delay: 0.5s }
+.equalizer .bar-4{ animation-delay: 0.6s }
+.equalizer .bar-5{ animation-delay: 0.25s }

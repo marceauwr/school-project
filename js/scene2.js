@@ -1,4 +1,3 @@
-console.log('scene 2')
 // scene 2
 const $sceneTwo = document.querySelector('.scene-2')
 const $football = $sceneTwo.querySelector('.football')
@@ -87,29 +86,3 @@ $listeningMusicBlock.addEventListener('mouseleave', () =>
         $schoolboy.style.opacity = '1'
     }, 300)
 })
-
-// Add event listener mouse down effect 
-
-// $footballBlock.addEventListener('mousedown', () =>
-// {
-//     choises.sport += 1
-//     endSceneTwo()
-// })
-
-// $bookBlock.addEventListener('mousedown', () =>
-// {
-//     choises.intel += 1
-//     endSceneTwo()
-// })
-
-// $listeningMusicBlock.addEventListener('mousedown', () =>
-// {
-//     choises.music += 1
-//     endSceneTwo()
-// })
-
-// $videogamesBlock.addEventListener('mousedown', () =>
-// {
-//     choises.social += 1
-//     endSceneTwo()
-// })

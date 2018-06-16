@@ -1,14 +1,3 @@
-const $scene1 = document.querySelector('.scene-1')
-const $scene2 = document.querySelector('.scene-2')
-
-// console.log($scene1)
-// console.log($scene2)
-
-// $scene1.addEventListener('mousedown', () => {
-//     $scene1.style.display = 'none'
-//     $scene2.style.display = 'block'
-// })
-
 // set variables
 const choises = {
     social: 0,
@@ -20,7 +9,6 @@ const choises = {
 }
 let sceneFourPanel = ''
 
-console.log(choises)
 // Start scene functions 
 // End scene functions
 const endSceneOne = () => 
@@ -104,10 +92,10 @@ const endSceneFour = () =>
     startSceneFive()
 }
 
+const $sceneFive = document.querySelector('.scene-5')
 const startSceneFive = () => 
 {
-    // $sceneFour.style.display = 'block'
-    // a transformer en message de fin 
+    $sceneFive.style.display = 'block'
 }
 
 // Event changing scene
@@ -187,19 +175,6 @@ $sofaBlock.addEventListener('mousedown', () =>
 
 // START SCENE 4
 
-// $working.addEventListener('mousedown', () =>
-// {
-//     choises.stress += 1
-//     choises.intel += 1
-//     endSceneFour()
-// })
-
-// $speaking.addEventListener('mousedown', () =>
-// {
-//     choises.social += 1
-//     endSceneFour()
-// })
-
 $speakersPartyBlock.addEventListener('mousedown', () =>
 {
     choises.music += 1
@@ -218,16 +193,3 @@ $bookCollegeBlock.addEventListener('mousedown', () =>
     choises.intel += 1
     endSceneFour()
 })
-
-// $playing.addEventListener('mousedown', () =>
-// {
-//     choises.stress -= 1
-//     endSceneFour()
-// })
-
-// $running.addEventListener('mousedown', () =>
-// {
-//     choises.sport += 1
-//     console.log('Ajouter la fin sport ici')
-//     endSceneFour()
-// })

@@ -1,4 +1,3 @@
-console.log('loop')
 const loop = () =>
 {
     requestAnimationFrame(loop)

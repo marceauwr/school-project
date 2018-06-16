@@ -19,14 +19,12 @@ const $chairBlock = $sceneThree.querySelector('.chair-block')
 const $chairAnim = $sceneThree.querySelector('.chair-anim')
 const $guitarBlock = $sceneThree.querySelector('.guitar-block')
 const $guitarAnim = $sceneThree.querySelector('.guitar-anim')
-let invisible = false
 
 // Add event listener hover
 $sofaBlock.addEventListener('mouseenter', () =>
 {
     $teenager.style.opacity = '0'
     invisible = true
-    ael = false
     setTimeout(function(){
          $friend1.style.opacity = '1'
          $friend2.style.opacity = '1'
@@ -122,17 +120,6 @@ $guitarBlock.addEventListener('mouseleave', () =>
         $guitar.style.opacity = '1'
     }, 300)
 })
-
-const loop = () =>
-{
-    requestAnimationFrame(loop)
-    if(invisible)
-    {
-        $teenager.style.opacity = '0'
-    }
-}
-
-loop()
 
 $punchingballBlock.addEventListener('mousedown', () =>
 {

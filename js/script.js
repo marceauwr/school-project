@@ -15,14 +15,12 @@
 // scene 3
 
 // scene 4
-const $sceneFourWorkingPlace = document.querySelector('.scene-4-working-place')
-const $working = $sceneFourWorkingPlace.querySelector('.working')
-const $speaking = $sceneFourWorkingPlace.querySelector('.speaking')
+// const $sceneFourWorkingPlace = document.querySelector('.scene-4-working-place')
+// const $working = $sceneFourWorkingPlace.querySelector('.working')
+// const $speaking = $sceneFourWorkingPlace.querySelector('.speaking')
 
-
-
-const $sceneFourStreet = document.querySelector('.scene-4-street')
-const $running = $sceneFourStreet.querySelector('.running')
+// const $sceneFourStreet = document.querySelector('.scene-4-street')
+// const $running = $sceneFourStreet.querySelector('.running')
 /**
  * Set variable
  */
@@ -53,6 +51,7 @@ const endSceneOne = () =>
 {
     $sceneOne.style.display = 'none'
     console.log('End scene 1')
+    invisible = false
     startSceneTwo()
 }
 
@@ -64,6 +63,7 @@ const endSceneTwo = () =>
 {
     $sceneTwo.style.display = 'none'
     console.log('End scene 2')
+    invisible = false
     startSceneThree()
 }
 
@@ -75,6 +75,7 @@ const endSceneThree = () =>
 {
     $sceneThree.style.display = 'none'
     console.log('End scene 3')
+    invisible = false
     startSceneFour()
 }
 
@@ -107,6 +108,7 @@ const startSceneFour = () =>
 }
 const endSceneFour = () =>
 {
+    invisible = false
     if (sceneFourPanel == 'workingplace')
     {
         $sceneFourWorkingPlace.style.display = 'none'
@@ -123,12 +125,14 @@ const endSceneFour = () =>
     {
         $sceneFourCollege.style.display = 'none'
     }
+    startSceneFive()
 }
-// const endSceneFour = () => 
-// {
-//     $sceneFour.style.display = 'none'
-//     // startSceneFive()
-// }
+
+const startSceneFive = () => 
+{
+    // $sceneFour.style.display = 'block'
+    // a transformer en message de fin 
+}
 
 // START SCENE 1
 // scene1.js
@@ -144,18 +148,18 @@ const endSceneFour = () =>
 
 // START SCENE 4
 
-$working.addEventListener('mousedown', () =>
-{
-    choises.stress += 1
-    choises.intel += 1
-    endSceneFour()
-})
+// $working.addEventListener('mousedown', () =>
+// {
+//     choises.stress += 1
+//     choises.intel += 1
+//     endSceneFour()
+// })
 
-$speaking.addEventListener('mousedown', () =>
-{
-    choises.social += 1
-    endSceneFour()
-})
+// $speaking.addEventListener('mousedown', () =>
+// {
+//     choises.social += 1
+//     endSceneFour()
+// })
 
 
 

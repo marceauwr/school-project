@@ -11,12 +11,14 @@ const $teenagerParty = $sceneFourParty.querySelector('.teenager-party')
 $speakersPartyBlock.addEventListener('mouseenter', () =>
 {
     $teenagerParty.style.opacity = '0'
+    invisible = true
     setTimeout(function(){ $speakersPartyAnim.style.opacity = '1' }, 300)
 })
 
 $speakersPartyBlock.addEventListener('mouseleave', () =>
 {
     $speakersPartyAnim.style.opacity = '0'
+    invisible = false
     setTimeout(function(){ 
         $teenagerParty.style.opacity = '1'
     }, 300)
@@ -26,6 +28,7 @@ $ddrPartyBlock.addEventListener('mouseenter', () =>
 {
     $teenagerParty.style.opacity = '0'
     $ddrParty.style.opacity = '0'
+    invisible = true
     setTimeout(function(){ 
         $ddrPartyAnim.style.opacity = '1' 
     }, 300)
@@ -34,6 +37,7 @@ $ddrPartyBlock.addEventListener('mouseenter', () =>
 $ddrPartyBlock.addEventListener('mouseleave', () =>
 {
     $ddrPartyAnim.style.opacity = '0'
+    invisible = false
     setTimeout(function(){ 
         $teenagerParty.style.opacity = '1'
         $ddrParty.style.opacity = '1'

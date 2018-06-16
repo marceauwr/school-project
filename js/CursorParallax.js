@@ -1,4 +1,3 @@
-console.log('parallax')
 class CursorParallax
 {
     constructor()

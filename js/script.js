@@ -1,3 +1,4 @@
+console.log('main')
 // const resize = () => 
 // {
 //     $sceneOne.style.width = window.innerWidth

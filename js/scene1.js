@@ -1,3 +1,4 @@
+console.log('scene 1 ')
 // scene 1
 const $sceneOne = document.querySelector('.scene-1')
 const $baby = $sceneOne.querySelector('.baby')

@@ -1,3 +1,4 @@
+console.log('scene 4 party')
 const $sceneFourParty = document.querySelector('.scene-4-party')
 const $speakersPartyBlock = $sceneFourParty.querySelector('.speakers-party-block')
 const $speakersParty = $speakersPartyBlock.querySelector('.speakers-party')

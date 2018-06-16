@@ -1,3 +1,4 @@
+console.log('scene 3')
 // scene 3
 const $sceneThree = document.querySelector('.scene-3')
 const $punchingball = $sceneThree.querySelector('.punchingball')

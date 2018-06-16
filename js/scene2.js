@@ -1,3 +1,4 @@
+console.log('scene 2')
 // scene 2
 const $sceneTwo = document.querySelector('.scene-2')
 const $football = $sceneTwo.querySelector('.football')

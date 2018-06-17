@@ -14,7 +14,6 @@ let sceneFourPanel = ''
 const endSceneOne = () => 
 {
     $sceneOne.style.display = 'none'
-    console.log('End scene 1')
     invisible = false
     startSceneTwo()
 }
@@ -26,7 +25,6 @@ const startSceneTwo = () =>
 const endSceneTwo = () => 
 {
     $sceneTwo.style.display = 'none'
-    console.log('End scene 2')
     invisible = false
     startSceneThree()
 }
@@ -38,7 +36,6 @@ const startSceneThree = () =>
 const endSceneThree = () => 
 {
     $sceneThree.style.display = 'none'
-    console.log('End scene 3')
     invisible = false
     startSceneFour()
 }
@@ -49,13 +46,11 @@ const startSceneFour = () =>
     {
         $sceneFourParty.style.display = 'block'
         sceneFourPanel = 'party'
-        console.log('Party')
     }
     else
     {
         $sceneFourCollege.style.display = 'block'
         sceneFourPanel = 'college'
-        console.log('College')
     }
 }
 const endSceneFour = () =>
@@ -83,14 +78,12 @@ const startSceneFive = () =>
 $cubeBlock.addEventListener('mousedown', () =>
 {
     choises.intel += 1
-    console.log(choises.intel)
     endSceneOne()
 })
 
 $teddybearBlock.addEventListener('mousedown', () =>
 {
     choises.social += 1
-    console.log(choises.social)
     endSceneOne()
 })
 // END SCENE 1
@@ -158,7 +151,6 @@ $sofaBlock.addEventListener('mousedown', () =>
 $speakersPartyBlock.addEventListener('mousedown', () =>
 {
     choises.music += 1
-    console.log('Ajouter la fin musique ici')
     endSceneFour()
 })
 

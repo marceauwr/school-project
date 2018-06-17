@@ -5,6 +5,15 @@
     position: absolute;
 }
 
+.texte
+{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 0;
+    left: 83%;
+}
+
 /**
 *   SCENE 1
 */

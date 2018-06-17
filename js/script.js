@@ -10,9 +10,7 @@ const cursorParallax = new CursorParallax()
 
 const $equalizer = document.querySelector('.equalizer')
 const $audio = document.querySelector('audio')
-music = true;
-console.log($audio)
-console.log(music)
+music = true
 
 $equalizer.addEventListener('mousedown', () => 
 {

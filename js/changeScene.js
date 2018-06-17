@@ -45,19 +45,7 @@ const endSceneThree = () =>
 
 const startSceneFour = () => 
 {
-    if (choises.intel == 0)
-    {
-        $sceneFourWorkingPlace.style.display = 'block'
-        sceneFourPanel = 'workingplace'
-        console.log('Working place')
-    }
-    else if (choises.sport == 2)
-    {
-        $sceneFourStreet.style.display = 'block'
-        sceneFourPanel = 'street'
-        console.log('Street')
-    }
-    else if (choises.intel < choises.social)
+    if (choises.intel < choises.social)
     {
         $sceneFourParty.style.display = 'block'
         sceneFourPanel = 'party'
@@ -73,15 +61,7 @@ const startSceneFour = () =>
 const endSceneFour = () =>
 {
     invisible = false
-    if (sceneFourPanel == 'workingplace')
-    {
-        $sceneFourWorkingPlace.style.display = 'none'
-    }
-    else if (sceneFourPanel == 'street')
-    {
-        $sceneFourStreet.style.display = 'none'
-    }
-    else if (sceneFourPanel == 'party')
+    if (sceneFourPanel == 'party')
     {
         $sceneFourParty.style.display = 'none'
     }
